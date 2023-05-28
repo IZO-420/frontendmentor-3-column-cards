@@ -1,0 +1,99 @@
+body {
+  margin: 0px;
+  height: 100vh;
+  width: 100%;
+  background-color: hsl(0, 0%, 95%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+}
+.card {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  height: 70%;
+  border-radius: 10px;
+}
+.item-1 {
+  width: 33%;
+  background-color: hsl(31, 77%, 52%);
+  padding: 4em;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  border-radius: 10px 0px 0px 10px;
+}
+.item-1 > button {
+  color: hsl(31, 77%, 52%);
+}
+.item-2 {
+  width: 33%;
+  background-color: hsl(184, 100%, 22%);
+  padding: 4em;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.item-2 > button {
+  color: hsl(184, 100%, 22%);
+}
+.item-3 {
+  width: 33%;
+  background-color: hsl(179, 100%, 13%);
+  padding: 4em;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  border-radius: 0px 10px 10px 0px;
+}
+.item-3 > button {
+  color: hsl(179, 100%, 13%);
+}
+.item-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 70%;
+}
+h1 {
+  width: 100%;
+  text-align: start;
+  font-family: Big Shoulders Display;
+  font-weight: 700;
+  color: hsl(0, 0%, 95%);
+  font-size: 30pt;
+  margin: 0.8em 0em 0.4em 0em;
+}
+img {
+  width: 5em;
+  aspect-ratio: 3/2;
+}
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: Lexend Deca;
+  font-weight: 400;
+  width: 14em;
+  line-height: 2;
+}
+button {
+  border-radius: 30px;
+  padding: 0.7em 1.95em;
+  background-color: hsl(0, 0%, 95%);
+  border-style: solid;
+  border-width: 0.2em;
+  border-color: hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
+  font-family: Lexend Deca;
+  font-weight: 400;
+  font-size: 13.6pt;
+}
+button:hover {
+  cursor: pointer;
+  background-color: transparent;
+  color: hsl(0, 0%, 95%);
+}
