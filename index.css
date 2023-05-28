@@ -15,6 +15,7 @@ body {
   height: 70%;
   border-radius: 10px;
 }
+
 .item-1 {
   width: 33%;
   background-color: hsl(31, 77%, 52%);
@@ -60,6 +61,24 @@ body {
   flex-direction: column;
   height: 70%;
 }
+@media only screen and (max-width: 400px) {
+    .card {
+        width: 70%;
+        flex-direction: column;
+    }
+    .item-1 {
+        width: 100%;
+        border-radius: 10px 10px 0px 0px;
+      }
+      .item-2 {
+        width: 100%;
+        background-color: hsl(184, 100%, 22%);
+      }
+      .item-3 {
+        width: 100%;
+        background-color: hsl(179, 100%, 13%);
+      }
+  }
 h1 {
   width: 100%;
   text-align: start;
